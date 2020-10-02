@@ -2,8 +2,6 @@
 
 ![Project Image](project-image-url)
 
-> This is a ReadMe template to help save you time and effort.
-
 ---
 
 ### Table of Contents
