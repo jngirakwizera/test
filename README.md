@@ -35,12 +35,12 @@ Distributed Provider System
 
 #### Installation
 
-git clone https://github.com/Care-Amarillo/Care-Amarillo-Backend.git
-cd Care-Amarillo-Backend
-npm i 
-node addUser.js
-Ctrl+C
-node index.js
+- git clone https://github.com/Care-Amarillo/Care-Amarillo-Backend.git
+- cd Care-Amarillo-Backend
+- npm i 
+- node addUser.js
+- Ctrl+C
+- node index.js
 
 #### API Reference
 
