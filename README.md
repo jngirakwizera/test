@@ -21,14 +21,17 @@ Distributed Provider System
 
 #### Technologies
 
-- Node.js
-- MongoDb
-
+- React.js
 
 [Back To The Top](#provider-backend)
 
----
 
+---
+## Care Amarillo Backend
+
+- Backend Code - [code](https://github.com/Care-Amarillo/Care-Amarillo-Backend)
+
+---
 ## How To Use
 
 #### Installation
@@ -38,6 +41,23 @@ In the project directory:
 - git clone https://github.com/Care-Amarillo/Care-Amarillo-Frontend.git
 - cd Care-Amarillo-Frontend
 - npm i 
+
+### `Create the .env file`
+Create a .env file in the root of your project directory with these credentials:
+REACT_APP_BACKEND_ENDPOINT=http://localhost:3000
+REACT_APP_AUTOCOMPLETE_GOOGLE_API_KEY=AIzaSyCOvmLGpbzVEgMywSh3g4g6mbaynTbdIiU
+REACT_APP_MAP_API_KEY=testApiKey
+REACT_APP_SHEETS_GOOGLE_API_KEY=testApiKey
+REACT_APP_SHEETS_CLIENT_ID=testId.apps.googleusercontent.com
+REACT_APP_FIREBASE_PUBLIC_VAPID_KEY=testVapidKey
+REACT_APP_FIREBASE_API_KEY=testApiKey
+REACT_APP_FIREBASE_AUTH_DOMAIN=myapp.firebaseapp.com
+REACT_APP_FIREBASE_DATABASE_URL=https://myapp.firebaseio.com
+REACT_APP_FIREBASE_PROJECT_ID=myapp
+REACT_APP_FIREBASE_STORAGE_BUCKET=myapp.appspot.com
+REACT_APP_FIREBASE_MESSAGING_SENDER_ID=1234456
+REACT_APP_FIREBASE_APP_ID=1:123434:web:1234456
+REACT_APP_FIREBASE_MEASUREMENT_ID=G-TEST8ID
 
 ### `npm start`
 
@@ -57,9 +77,6 @@ The build is minified and the filenames include the hashes.<br />
 Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-#### API Reference
-
 
 
 [Back To The Top](#provider-backend)
@@ -108,7 +125,4 @@ SOFTWARE.
 
 [Back To The Top](#top)
 
----
-## Care Amarillo Backend
 
-- Backend Code - [code](https://github.com/Care-Amarillo/Care-Amarillo-Backend)
