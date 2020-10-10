@@ -47,8 +47,11 @@ Distributed Provider System
 - create an .env file in the root directory of the project with your configurables such as 
 
 JWT_KEY_OR_SECRET=testing
+
 MONGO_URL=localhost
+
 MONGO_PORT=27017
+
 EXPRESS_PORT=3000
 
 - node index.js
