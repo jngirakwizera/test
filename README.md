@@ -44,6 +44,8 @@ In the project directory:
 
 ### `Create the .env file`
 Create a .env file in the root of your project directory with these credentials:
+The main thing you will need to change is your backend endpoint, when you get ready for deployment
+
 REACT_APP_BACKEND_ENDPOINT=http://localhost:3000
 REACT_APP_AUTOCOMPLETE_GOOGLE_API_KEY=AIzaSyCOvmLGpbzVEgMywSh3g4g6mbaynTbdIiU
 REACT_APP_MAP_API_KEY=testApiKey
