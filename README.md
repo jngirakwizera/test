@@ -21,64 +21,40 @@ Distributed Provider System
 
 #### Technologies
 
-- React.js
+- Node.js
+- MongoDb
+
 
 [Back To The Top](#provider-backend)
 
+---
+
+## Care Amarillo Frontend
+
+- Frontend Code - [code](https://github.com/Care-Amarillo/Care-Amarillo-Frontend)
 
 ---
-## Care Amarillo Backend
 
-- Backend Code - [code](https://github.com/Care-Amarillo/Care-Amarillo-Backend)
-
----
 ## How To Use
 
 #### Installation
 
-In the project directory:
-
-- git clone https://github.com/Care-Amarillo/Care-Amarillo-Frontend.git
-- cd Care-Amarillo-Frontend
+- git clone https://github.com/Care-Amarillo/Care-Amarillo-Backend.git
+- cd Care-Amarillo-Backend
 - npm i 
+- node addUser.js
+- Ctrl+C
+- create an .env file in the root directory of the project with your configurables such as 
 
-### `Create the .env file`
-Create a .env file in the root of your project directory with these credentials:
-The main thing you will need to change is your backend endpoint, when you get ready for deployment
+JWT_KEY_OR_SECRET=testing
+MONGO_URL=localhost
+MONGO_PORT=27017
+EXPRESS_PORT=3000
 
-REACT_APP_BACKEND_ENDPOINT=http://localhost:3000
-REACT_APP_AUTOCOMPLETE_GOOGLE_API_KEY=AIzaSyCOvmLGpbzVEgMywSh3g4g6mbaynTbdIiU
-REACT_APP_MAP_API_KEY=testApiKey
-REACT_APP_SHEETS_GOOGLE_API_KEY=testApiKey
-REACT_APP_SHEETS_CLIENT_ID=testId.apps.googleusercontent.com
-REACT_APP_FIREBASE_PUBLIC_VAPID_KEY=testVapidKey
-REACT_APP_FIREBASE_API_KEY=testApiKey
-REACT_APP_FIREBASE_AUTH_DOMAIN=myapp.firebaseapp.com
-REACT_APP_FIREBASE_DATABASE_URL=https://myapp.firebaseio.com
-REACT_APP_FIREBASE_PROJECT_ID=myapp
-REACT_APP_FIREBASE_STORAGE_BUCKET=myapp.appspot.com
-REACT_APP_FIREBASE_MESSAGING_SENDER_ID=1234456
-REACT_APP_FIREBASE_APP_ID=1:123434:web:1234456
-REACT_APP_FIREBASE_MEASUREMENT_ID=G-TEST8ID
+- node index.js
 
-### `npm start`
+#### API Reference
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
-
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
 
 [Back To The Top](#provider-backend)
@@ -125,6 +101,5 @@ SOFTWARE.
 - Chris Coffee - [cmcoffee91](https://github.com/cmcoffee91)
 - Ariana Rangel - [Arangel4](https://github.com/Arangel4)
 
-[Back To The Top](#top)
-
+[Back To The Top](#provider-backend)
 
